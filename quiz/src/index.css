@@ -1,0 +1,244 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.game-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: navy;
+  height: 100vh;
+}
+
+.game-over-div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: navy;
+  height: 100vh;
+
+
+}
+.game-over{
+  color:white;
+  font-size: 50px;
+
+}
+.next{
+  margin: 5px;
+  background-color:orange;
+  border: 4px whitesmoke;
+  border-radius: 50px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 25px;
+  color: white;
+}
+.next:hover{
+  background-color: yellow;
+  color: orange;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+span {
+  background-color: blue;
+}
+.mdi mdi-cube-outline mdi-480px {
+  background-color: blue;
+
+}
+#home{
+  background-image:   url('./img/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec {
+  background-color: rgba(0,0,0,0.7);
+  height: 80%;
+  width: 35%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: whitesmoke;
+  font-size: xx-large;
+}
+.play-button-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}  
+nav{
+  margin:20px;
+}  
+
+.play{
+  background-color: rgb(43, 223, 7);
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+}
+ .play:hover{
+   background-color: rgb(195, 248, 4);
+  
+ }
+.auth{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth-button{
+  background-color: tomato;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 20px;
+}
+nav{
+  color: white;
+}
+.correct{
+  background-color: green;
+  padding: 20px;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  color: white;
+  justify-content: center;
+  width: 100px;
+  margin-left: 25%;
+
+
+}
+.wrong {
+  background-color: red;
+  border: 2px solid orange;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  width: 100px;
+  justify-content: center;
+  margin-left: 25%;
+
+}
+.options {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+    
+
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+ }
+.option{
+  margin: 5px;
+  background-color: dodgerblue;
+  border: 2px whitesmoke;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+
+}
+.option:hover {
+  background-color: white;
+  color: dodgerblue;
+  border: 2px solid dodgerblue;
+
+}
+   
+.game-div{
+  display: flex;
+  flex-direction: column;
+  background-image:   url('./img/ocean.jpg');
+
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: 2px blue;
+}
+.button-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+#audio{
+  display: none;
+}
+.q-div{
+  display: inline-flex;
+  flex-wrap: wrap-reverse;
+  align-content: center; 
+   
+  
+ }
+ form{
+   background-color: dodgerblue;
+ }
+ .dropdown{
+   background-color: dodgerblue;
+   border: 2px solid blue;
+   padding: 10px;
+ }
+ .category{
+   background-color: orange;
+   display: flex;
+   color: white;
+   border: 2px solid yellow;
+   width: 100%;
+   padding:20px;
+   justify-content: center;
+   font-size:20px;
+   
+ }
+ .category:hover{
+   background-color: yellow;
+   border: 2px solid orange;
+   color: orange;
+ }
+.question {
+  color: white;
+  width: 100%;
+  /* margin: auto; */
+  margin-bottom: 10px;
+  display: flex; 
+  flex-direction: column;
+}
+.question1 {
+  color: white;
+}
+.score{
+  color: white;
+  margin: 5px;
+}
+
+.categories{
+  background-color: navy;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+   
+}
